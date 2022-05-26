@@ -1,20 +1,12 @@
-## Hand made Gradient Boosting Machine 
-### (Base model - Logistic Regression, Poisson bootsrap)
-Enssemble algorithm, written on Python from scratch for binary classification problem.
-As a base model Logistic Regression was choicen.
+## ML models written from scratch in Python are being blent  
 
-This machine evaluates residuals per estimators.
+We are using followed models:
+- KNN
+- SoftMaxRegression
+- DecisionTree
 
-![](residuals.png)
+As a blender (meta algirithm) we can use one of them.
 
-Provide error estimation.
-
-![](errors.png)
-
-Also evaluate ROC and PRC curves.
-
-![](curves.png)
-
-Cherry on a cake - predictions sampled with a Poisson bootstrap. It allowed to evaluate variance of a model metrics.
+The blending is about ...
 
 ![](bootstrap.png)
