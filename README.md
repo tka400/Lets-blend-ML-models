@@ -2,11 +2,12 @@
 
 We are using followed models:
 - KNN
-- SoftMaxRegression
-- DecisionTree
+- SoftMax Regression
+- Decision Tree
+- Random Forest
 
-As a blender (meta algirithm) we can use one of them.
+As a blender (meta algorithm) we can use one of them.
 
 The blending is about ...
 
-![](bootstrap.png)
+![](blendig.png)
